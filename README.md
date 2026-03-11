@@ -8,7 +8,7 @@ An LLM-powered code analysis tool that provides real-time streaming code reviews
 
 ## Features
 
-- **Real-time streaming** — see analysis token by token as GPT-4o processes your code
+- **Real-time streaming** — see analysis token by token as Claude processes your code
 - **Multi-language support** — C++, TypeScript, JavaScript, Python, C#, Java, Rust, Go, SQL
 - **Security scanning** — detects SQL injection, memory leaks, XSS, and more
 - **Performance metrics** — scores complexity, readability, performance, security, maintainability
@@ -31,7 +31,7 @@ cd ai-code-reviewer
 # 2. Install dependencies
 npm install
 
-# 3. Add your OpenAI API key
+# 3. Add your Antropic Claude API key
 cp .env.example .env.local
 # Edit .env.local and add: OPENAI_API_KEY=your_key_here
 
