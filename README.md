@@ -41,12 +41,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AKavaa/ai-code-reviewer)
-
-Add `OPENAI_API_KEY` in Vercel environment variables.
-
 ## Architecture
 
 ```
@@ -66,15 +60,3 @@ JSON parsed → structured ReviewResult
       │
       ▼
 React UI renders score, metrics, issues, fixes
-```
-
-## CV Bullet Points (for recruiters)
-
-> **AI Code Reviewer** *(TypeScript | Next.js | OpenAI GPT-4o | Edge Streaming)*
-> - Engineered an LLM-powered static analysis tool supporting 9 languages with real-time streaming via Edge Runtime ReadableStream API
-> - Implemented structured JSON extraction from GPT-4o streams, parsing 5 code quality metrics and severity-classified issue detection
-> - Deployed on Vercel Edge Network achieving sub-200ms TTFB with zero cold-start latency
-
-## License
-
-MIT
